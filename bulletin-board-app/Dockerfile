@@ -7,4 +7,8 @@ RUN npm install
 EXPOSE 8080
 CMD [ "npm", "start" ]
 
+<<<<<<< HEAD
 COPY . .
+=======
+COPY . .
+>>>>>>> b989556 (App v1 - memory storage)
