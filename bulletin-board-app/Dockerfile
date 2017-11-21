@@ -9,7 +9,7 @@ CMD [ "npm", "start" ]
 
 HEAD
 COPY . .
->>>>>>> b989556 (App v1 - memory storage)
+
 
 b989556 (App v1 - memory storage)
 
