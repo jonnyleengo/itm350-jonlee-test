@@ -86,7 +86,7 @@ Showing Differences
 To see changes between commits or the working directory:
 git diff
 
-To see changes in a specific file:
+To see changes in a specific amazing file:
 git diff <filename>
 
 Showing Commit Details
