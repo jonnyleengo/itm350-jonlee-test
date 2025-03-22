@@ -1,95 +1,18 @@
-# itm350-jonlee-test
-Git is a distributed version control system that helps track changes in source code during development.
+## Vue Events Bulletin Board
 
-Initializing a Repository
+This is the code for the Vue.js [tutorial on Scotch.io](https://scotch.io/tutorials/build-a-single-page-time-tracking-app-with-vue-js-introduction). In the tutorial, we build an events bulletin board application and cover the basics of [Vue](http://vuejs.org/).
 
-To start using Git in a project, initialize a repository:
-git init
+## Installation
 
-To clone an existing repository:
-git clone <repository_url>
+Change the directory to `node-bulletin-board` and follow the commands:
 
-Basic Git Commands
+1. Run `npm install`.
+2. Run `node server.js`.
+3. Visit [http://localhost:8080](http://localhost:8080).
 
-Adding Files to Staging
+   <img width="1199" alt="image" src="https://github.com/user-attachments/assets/2cf0d1b5-5dde-491c-a158-8425df4576c5">
 
-To add files to the staging area before committing:
-git add <filename>
+## Using Docker
 
-To add all modified files:
-git add .
+Clone the repository and run the following command:
 
-Committing Changes
-
-To commit staged files with a message:
-git commit -m "Your commit message"
-
-Pushing Changes
-
-To push committed changes to a remote repository:
-git push origin <branch>
-
-For example, to push changes to the main branch:
-git push origin main
-
-Pulling Updates
-
-To pull the latest changes from a remote repository:
-git pull origin <branch>
-
-Changing the Remote Origin URL
-
-If the remote repository URL needs to be updated:
-git remote set-url origin <new_repository_url>
-
-To verify the new URL:
-git remote -v
-
-Managing Changes
-
-Stashing Changes
-
-If you need to save changes temporarily without committing:
-git stash
-
-To apply the stashed changes:
-git stash pop
-
-To view the stash list:
-git stash list
-
-Reverting a Commit
-
-To revert a specific commit (creating a new commit to undo the changes):
-git revert <commit_hash>
-
-Resetting Commits
-
-To reset to a previous commit, discarding all later commits:
-git reset --hard <commit_hash>
-
-To keep changes but unstage them:
-git reset --soft <commit_hash>
-
-Inspecting Changes
-
-Viewing Commit History
-
-To see a list of past commits:
-git log
-
-For a compact history:
-git log --oneline
-
-Showing Differences
-
-To see changes between commits or the working directory:
-git diff
-
-To see changes in a specific amazing file:
-git diff <filename>
-
-Showing Commit Details
-
-To display details of a specific commit:
-git show <commit_hash>
