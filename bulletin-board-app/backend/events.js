@@ -2,7 +2,11 @@ module.exports = [
     {
       id: 1,
       title: 'Docker Workshop',
+<<<<<<< HEAD
       detail: 'Linuxing in London ',
+=======
+      detail: 'Linuxing in Lonodon ',
+>>>>>>> b989556 (App v1 - memory storage)
       date: '2017-11-21'
     },
     {
@@ -16,4 +20,8 @@ module.exports = [
       title: 'Docker London',
       date: '2017-11-13'
     }
+<<<<<<< HEAD
   ];
+=======
+  ];
+>>>>>>> b989556 (App v1 - memory storage)
